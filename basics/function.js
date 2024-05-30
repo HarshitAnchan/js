@@ -39,6 +39,36 @@ function loginuser(username){
 }
 
 // console.log(loginuser("harshit"))
-console.log(loginuser())
+// console.log(loginuser())
+
+function calculateCartPrice (val1, va2, ...num1){
+
+return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 500))
+
+
+const user = {
+
+    username: "harshit",
+    price: 200
+}
+
+function handleObject(anyobject){
+
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price} `);
+}
+
+// handleObject(user)
+handleObject({
+
+    username: "Vini",
+    price: 399
+})
+
+
+const myNewArray = [200, 400, 500, 600]
+
 
 
