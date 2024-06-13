@@ -31,3 +31,18 @@
 
 
 
+let age = 20;
+
+switch (age) {
+    case age < 18:
+        console.log("under 18");
+        break;
+    case age >=18:
+        console.log("above 18");
+        break;
+
+    default:
+        console.log("hello idk your age");
+        break;
+    
+}
