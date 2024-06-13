@@ -14,12 +14,20 @@
 //     console.log(num, "is odd");
 // }
 
-let mode = "yellow";
-let color;
-if (mode == "dark") {
-    console.log("black");
-}else if (mode === "blue") {
-    console.log("blue");
-} else {
-    console.log(color = "white");
-}
+// let mode = "yellow";
+// let color;
+// if (mode == "dark") {
+//     console.log("black");
+// }else if (mode === "blue") {
+//     console.log("blue");
+// } else {
+//     console.log(color = "white");
+// }
+
+// let age = 20;
+
+// const checkAge = age >18 ? "adult" :"not adult";
+// console.log(checkAge);
+
+
+
