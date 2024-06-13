@@ -1,10 +1,6 @@
-fullname="harshit Anchan"
-age =22
-x=null;
-y= undefined;
+{
+    let a =5
+    console.log(a);
 
-isFollow = false
+}
 
-
-fullname =25;
-console.log(typeof fullname);
