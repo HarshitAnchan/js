@@ -161,12 +161,21 @@
 // console.log(str[0], str[1]);
 
 
-let  obj={
-    item:"pen",
-    price:10,
-};
-console.log(`the cost of  ${obj.item} is , ${obj.price} rupees`);
+// let  obj={
+//     item:"pen",
+//     price:10,
+// };
+// console.log(`the cost of  ${obj.item} is , ${obj.price} rupees`);
 
+
+
+let str = "hello"
+
+let str1="world!"
+
+
+
+console.log(str.replace(str, "jajajaja"));
 
 
 
