@@ -215,30 +215,75 @@ let heroes = [
 // }
 
 
-let cities = [
-    "New York",
-    "Los Angeles",
-    "Chicago",
-    "Houston",
-    "Phoenix",
-    "Philadelphia",
-    "San Antonio",
-    "San Diego",
-    "Dallas",
-    "San Jose"
-  ];
+// let cities = [
+//     "New York",
+//     "Los Angeles",
+//     "Chicago",
+//     "Houston",
+//     "Phoenix",
+//     "Philadelphia",
+//     "San Antonio",
+//     "San Diego",
+//     "Dallas",
+//     "San Jose"
+//   ];
 
   
-  for (let city of cities) {
-    console.log(city.toUpperCase());
-  }
+//   for (let city of cities) {
+//     console.log(city.toUpperCase());
+//   }
 
 
 
 
+// Practice
+
+// let marks = [85, 97, 44, 37, 76, 60]
+
+
+// let sum = 0;
+// for (let val of marks) {
+//     sum+= val;
+    
+// }
+// let avg = sum/marks.length;
+
+// console.log(avg);
 
 
 
+
+// let items= [250, 645, 300,900,50];
+
+// for(i =0; i<items.length ; i++){
+
+//     let offer = items[i] /10;
+//     items[i] -= offer;
+// }
+
+// console.log(items);
+
+
+
+// let items = ["potato", "apple", "litchi", "chips", "fries"]
+
+// console.log(items.splice(2,2));
+
+
+
+
+// let arr =[1,2,3,4,5,6,7,8,9]
+
+// arr.splice(2,2,101,102);
+
+
+
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+
+companies.splice(2, 1 , "ola")
+
+companies.push("Amazon")
 
 
 
