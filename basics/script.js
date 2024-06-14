@@ -186,6 +186,76 @@
 // console.log(username);
 
 
+// ARRAY
+
+
+let heroes = [
+    "Superman",
+    "Batman",
+    "Wonder Woman",
+    "Spider-Man",
+    "Iron Man",
+    "Captain America",
+    "Thor",
+    "Black Panther",
+    "Hulk",
+    "Black Widow"
+  ];
+
+
+//   for loop
+// for (let i = 0; i < heroes.length; i++) {
+//     console.log(heroes[i]);
+// }
+
+
+// forof loop
+// for (let hero of heroes) {
+//     console.log(hero);
+// }
+
+
+let cities = [
+    "New York",
+    "Los Angeles",
+    "Chicago",
+    "Houston",
+    "Phoenix",
+    "Philadelphia",
+    "San Antonio",
+    "San Diego",
+    "Dallas",
+    "San Jose"
+  ];
+
+  
+  for (let city of cities) {
+    console.log(city.toUpperCase());
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
