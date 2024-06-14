@@ -58,17 +58,34 @@
 
 
 
-let score = prompt("ENTER SCORE");
+// let score = prompt("ENTER SCORE");
 
-if (score >=80 && score<=100) {
-    console.log("A grade");
-} else if (score ==70 && score<=79) {
-    console.log("B grade");
-}else if (score==60 && score<=69) {
+// if (score >=80 && score<=100) {
+//     console.log("A grade");
+// } else if (score ==70 && score<=79) {
+//     console.log("B grade");
+// }else if (score==60 && score<=69) {
     
-}else if (score ==50  && score<=59) {
+// }else if (score ==50  && score<=59) {
     
-}else{
+// }else{
 
-console.log("F grade");
-}
+// console.log("F grade");
+// }
+
+
+// for(let count=1; count <=5; count++){
+
+//     console.log("harshit");
+// }
+
+
+
+
+
+
+
+
+
+
+
