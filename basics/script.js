@@ -99,6 +99,62 @@
 
 
 
+// let i=1;
+
+// do{
+//     console.log(i);
+//     i++;
+// }while(i<=10);
+
+
+
+// for of loop
+
+// let str = "harshit";
+// let size = 0;
+// for(let i of str){
+//     console.log(i);
+//     size++;
+// }
+// console.log("string size", size);
+
+
+
+// for in loop
+
+// let student ={
+//     name:"harshit,",
+//     age:22,
+//     cgpa: 8.7,
+//     isPass: true
+// };
+//  for (let key in student) {
+   
+//         console.log(key , student[key]);
+//     }
+ 
+
+
+//practice print even number from 1 to 100
+
+
+// for(num =0; num<=100; num++){
+//     if (num %2 == 0) {
+//         console.log(num); 
+
+//     }
+// }
+
+
+
+// practice q 2
+
+let gameNum =25;
+let userNum =prompt("guesss the number")
+ while (userNum != gameNum) {
+   userNum = prompt("you have entered wrong number")
+ }
+console.log("congo correct num");
 
 
 
