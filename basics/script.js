@@ -169,14 +169,21 @@
 
 
 
-let str = "hello"
+// let str = "hello"
 
-let str1="world!"
+// let str1="world!"
 
 
 
-console.log(str.replace(str, "jajajaja"));
+// console.log(str.replace(str, "jajajaja"));
 
+
+
+
+// let fullName = prompt("enter full name");
+
+// let username = `@${fullName}${fullName.length}`
+// console.log(username);
 
 
 
