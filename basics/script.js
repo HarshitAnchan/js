@@ -149,12 +149,23 @@
 
 // practice q 2
 
-let gameNum =25;
-let userNum =prompt("guesss the number")
- while (userNum != gameNum) {
-   userNum = prompt("you have entered wrong number")
- }
-console.log("congo correct num");
+// let gameNum =25;
+// let userNum =prompt("guesss the number")
+//  while (userNum != gameNum) {
+//    userNum = prompt("you have entered wrong number")
+//  }
+// console.log("congo correct num");
+
+
+// let str = "Harshit"
+// console.log(str[0], str[1]);
+
+
+let  obj={
+    item:"pen",
+    price:10,
+};
+console.log(`the cost of  ${obj.item} is , ${obj.price} rupees`);
 
 
 
