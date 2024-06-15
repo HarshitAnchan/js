@@ -278,14 +278,24 @@ let heroes = [
 
 
 
-let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+// let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 
 
-companies.splice(2, 1 , "ola")
+// companies.splice(2, 1 , "ola")
 
-companies.push("Amazon")
+// companies.push("Amazon")
 
 
+
+
+// FUNCTION
+
+
+// function myFunction(msg, n){
+//   console.log(msg*n);
+// }
+
+// myFunction("hello world", 10);
 
 
 
