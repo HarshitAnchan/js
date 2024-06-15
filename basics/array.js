@@ -12,7 +12,7 @@ const dc_heros = ["Superman", "Batman", "flash"]
 // console.log(allHeros);
 
 
-//spread
+//spread 
 const allHeros = [...marvel_heros,...dc_heros]
 console.log(allHeros);
 

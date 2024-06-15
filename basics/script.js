@@ -359,16 +359,48 @@ let heroes = [
 
 //same as above CREATE AN ARROW FUNCTION
 
-const countVowels = (str) =>{
-  let count=0;
-  for(const char of str){
-    if(char==="a" || char ==="e" || char === "i" || char==="o" || char==="u"){
-      count++;
-    }
-  }
-    console.log(count);
+// const countVowels = (str) =>{
+//   let count=0;
+//   for(const char of str){
+//     if(char==="a" || char ==="e" || char === "i" || char==="o" || char==="u"){
+//       count++;
+//     }
+//   }
+//     console.log(count);
 
-}
+// }
+
+
+// for each loop array
+// let arr =[1,2,3,4,5];
+
+// arr.forEach(function printValue(val){  //value ateach index
+//     console.log(val);
+
+// })
+
+
+// same but arrow fun
+
+// let arr =["pune", "delhi"];
+
+// arr.forEach((val, idx, arr ) => {
+
+//   console.log(val.toUpperCase(), idx, arr);
+// })
+
+
+
+let num =[1,2,3,4,5];
+num.forEach((num ) => {
+    console.log(num*num);
+})
+
+
+
+
+
+
 
 
 
