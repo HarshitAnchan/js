@@ -299,12 +299,76 @@ let heroes = [
 
 
 
+// sum of 2 number
+
+// function sum (x, y){
+
+// x and y acts as local variables
+
+//   sum = x+y;
+//   return sum;
+// }
+
+// let val = sum(2, 4);
+// console.log(val);
+
+
+
+
+// Multiplication of 2 number
+
+// function mul (x, y){
+//   return x*y;
+
+// }
+// console.log(mul(5, 6))
 
 
 
 
 
+// Arrow function
 
+
+// const sum = (a, b) => {
+// console.log(a +b)
+// }
+
+
+// const mul = (a, b) => {
+//   return a * b;
+// }
+// console.log(mul(3, 4));
+
+
+
+// practice COUNT NO OF VOLWELS
+ 
+// function countVowels (str){
+//     let count=0;
+//   for(const char of str){
+//     if(char==="a" || char ==="e" || char === "i" || char==="o" || char==="u"){
+//       count++;
+//     }
+//   }
+//     console.log(count);
+
+// }
+
+
+
+//same as above CREATE AN ARROW FUNCTION
+
+const countVowels = (str) =>{
+  let count=0;
+  for(const char of str){
+    if(char==="a" || char ==="e" || char === "i" || char==="o" || char==="u"){
+      count++;
+    }
+  }
+    console.log(count);
+
+}
 
 
 
