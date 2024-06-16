@@ -391,18 +391,84 @@ let heroes = [
 
 
 
-let num =[1,2,3,4,5];
-num.forEach((num ) => {
-    console.log(num*num);
+// let num =[1,2,3,4,5];
+// num.forEach((num ) => {
+//     console.log(num*num);
+// })
+
+
+
+// Array method 
+
+// let nums = [67, 52, 39];
+
+// let newArr = nums.map((val) => {
+//   return val ;
+//   // console.log(val);
+  
+// })
+
+
+// Filter Mthod
+// let arr = [1,2,3,4,5,6,7,8];
+
+
+// let evenArr = arr.filter((val) => {
+
+//   return val % 2 !== 0 ;
+// })
+// console.log(evenArr);
+
+
+//Reduce method
+
+// let arr = [1,2,3,4]
+// const output = arr.reduce((res, curr) =>{
+
+//   return res+curr
+// })
+
+// console.log(output);
+
+
+
+
+// return largest no 
+
+// let arr = [5,6,2,1,3]
+
+// let output = arr.reduce((prev , curr) =>{
+
+//   return prev > curr ? prev : curr
+// })
+// console.log(output);
+
+
+
+// let marks = [97, 64, 34, 54, 99, 98 , 89 ];
+
+// let newMarks = marks.filter((val) =>{
+//   return val > 90;
+
+
+// })
+// console.log(newMarks);
+
+let num = prompt("Enter Your number");
+
+let arr = [];
+
+for(let i =1 ; i <=num ; i++){
+
+  arr[i-1] = i;
+}
+console.log(arr);
+ let newArr = arr.reduce((prev , current)=>{
+  return prev * current;
+
+
 })
-
-
-
-
-
-
-
-
+console.log(newArr);
 
 
 
