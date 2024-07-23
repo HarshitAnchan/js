@@ -189,18 +189,18 @@
 // ARRAY
 
 
-let heroes = [
-    "Superman",
-    "Batman",
-    "Wonder Woman",
-    "Spider-Man",
-    "Iron Man",
-    "Captain America",
-    "Thor",
-    "Black Panther",
-    "Hulk",
-    "Black Widow"
-  ];
+// let heroes = [
+//     "Superman",
+//     "Batman",
+//     "Wonder Woman",
+//     "Spider-Man",
+//     "Iron Man",
+//     "Captain America",
+//     "Thor",
+//     "Black Panther",
+//     "Hulk",
+//     "Black Widow"
+//   ];
 
 
 //   for loop
@@ -454,27 +454,71 @@ let heroes = [
 // })
 // console.log(newMarks);
 
-let num = prompt("Enter Your number");
+// let num = prompt("Enter Your number");
 
-let arr = [];
+// let arr = [];
 
-for(let i =1 ; i <=num ; i++){
+// for(let i =1 ; i <=num ; i++){
 
-  arr[i-1] = i;
+//   arr[i-1] = i;
+// }
+// console.log(arr);
+//  let newArr = arr.reduce((prev , current)=>{
+//   return prev * current;
+
+
+// })
+// console.log(newArr);
+
+
+var arr = [1,2,3,4];
+
+// var ans = arr.map(function(val){
+//     return val +13 ;
+// })
+
+// console.log(ans);
+
+// var ans = arr.filter (function(val){
+//   if(val>3) {
+//     return true;
+//   }else {
+//     return false;
+//   }
+// })
+
+// console.log(ans);
+
+// var ans =  arr.find(function(val){
+//   if(val===2){
+//     return val;
+
+//   }
+//  })
+//     console.log(ans);
+
+// Objects
+
+// var obj = {
+//   name: "harshit",
+//   age: 22,
+// }
+
+
+// function abcd(){
+//   return 12;
+// }
+
+
+// abcd();
+
+async function abcd(){
+
+  var blob = await fetch (`https://randomuser.me/api/`)
+  var ans = blob.json()
+
+  console.log(ans);
 }
-console.log(arr);
- let newArr = arr.reduce((prev , current)=>{
-  return prev * current;
-
-
-})
-console.log(newArr);
-
-
-
-
-
-
-
+abcd();
 
 
